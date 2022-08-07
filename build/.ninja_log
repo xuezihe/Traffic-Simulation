@@ -38,3 +38,8 @@
 1	966	1659910974064038124	CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.o	4721e1e0e62bf6f
 1	1094	1659910974194038122	CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-Final.cpp.o	a300cc026e97620e
 1094	1354	1659910974454038119	traffic_simulation	f55f7ebbe9e6b8f5
+0	630	1659911473854031725	CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.o	72fe8f32c71d5ac2
+0	433	1659911483744031598	CMakeFiles/traffic_simulation.dir/src/TrafficLight.cpp.o	a8a541425125ba1
+433	599	1659911483914031596	traffic_simulation	f55f7ebbe9e6b8f5
+0	443	1659911499664031395	CMakeFiles/traffic_simulation.dir/src/TrafficLight.cpp.o	a8a541425125ba1
+443	606	1659911499824031393	traffic_simulation	f55f7ebbe9e6b8f5

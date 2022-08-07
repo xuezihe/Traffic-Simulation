@@ -2,6 +2,8 @@
 #include <random>
 #include "TrafficLight.h"
 
+std::random_device rd;
+std::mt19937 eng(rd());
 
 /* Implementation of class "TrafficLight" */
 /* 
@@ -62,8 +64,7 @@ void TrafficLight::simulate()
 void TrafficLight::cycleThroughPhases()
 {
     // random time between 4s to 6s
-    std::random_device rd;
-    std::mt19937 eng(rd());
+
     std::uniform_int_distribution<long> distr(4000, 6000);
     long cycleDuration = distr(eng);
     std::chrono::time_point<std::chrono::system_clock> lastUpdate;
